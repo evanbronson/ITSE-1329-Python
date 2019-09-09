@@ -1,3 +1,4 @@
-hours = #your code goes here
-rate = #your code goes here
-# Add your code below
+hours = input("Hours: ") #your code goes here
+rate = input("Rate: ") #your code goes here
+pay = int(hours) * int(rate) 
+print("Pay: ", float(pay))# Add your code below
